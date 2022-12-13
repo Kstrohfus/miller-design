@@ -202,3 +202,21 @@ i:hover {
 .bottom-list {
     margin-bottom: 20px;
 }
+
+/* Media */
+
+@media (max-width: 480px) {
+    .chairs {
+        padding-bottom: 10px;
+    }
+
+    .kitchen-chairs {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .kitchen-chairs {
+        padding-bottom: 10px;
+    }
+}
