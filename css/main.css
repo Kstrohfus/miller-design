@@ -110,6 +110,46 @@ body {
     letter-spacing: 1px;
 }
 
+.hero-service {
+    background-image: url("../img/kitchen-chair.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+}
+
+.hero-service::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.hero-service h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 46px;
+    margin: -20px 0 20px;
+    transition: 3s ease-in;
+}
+
+.hero-service p {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
 img {
     width: 300px;
 }
@@ -117,7 +157,7 @@ img {
 .m-pix {
     font-family: "Mrs Saint Delafield", cursive;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .milla {
@@ -147,15 +187,3 @@ i {
     color: #fff;
     text-align: left;
 }
-
-/* 
-.content h2 .content h3 {
-    font-size: 150%;
-    margin: 20px 0;
-}
-
-.content p {
-    color: #555;
-    line-height: 30px;
-    letter-spacing: 1.2px;
-} */
