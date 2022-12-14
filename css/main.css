@@ -232,7 +232,7 @@ i:hover {
     }
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 479px) and (max-width: 767px) {
     .kitchen-chairs {
         padding-bottom: 10px;
     }
