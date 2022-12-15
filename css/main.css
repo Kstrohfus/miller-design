@@ -133,8 +133,14 @@ img {
     font-size: 30px;
     color: #222;
     font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 500;
+    text-decoration: underline;
 }
 
+.container-text-end {
+    max-width: 98%;
+    margin: 20px 0 0 15px;
+}
 .footer {
     background-color: #222;
     color: #fff;
@@ -143,7 +149,7 @@ img {
 
 i {
     font-size: 34px;
-    padding: 12px;
+    padding: 10px;
     color: #fff;
     text-align: left;
 }
@@ -156,9 +162,12 @@ i:hover {
 
 .email {
     font-size: 18px;
-    padding: 12px;
     color: #fff;
     text-align: left;
+}
+
+a.email {
+    padding: 10px;
 }
 
 .email:hover {
